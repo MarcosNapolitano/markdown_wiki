@@ -1,0 +1,32 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {% if content %}
+        {{ title }} - Encyclopedia
+    {% else %}
+        Error 404 - Encyclopedia
+    {% endif %}
+    
+{% endblock %}
+
+{% block body %}
+
+    {% if content %}
+
+        {% autoescape off %}
+            {{content}}
+        {% endautoescape %}
+
+        <a href="{% url 'editpage' title=title %}">Edit Page</a>
+
+    {% else %}
+
+        <h1>Error 404:</h1>
+        <br>
+
+        <h5>Entry not found :(</h5>
+    
+    {% endif %}
+
+
+{% endblock %}
