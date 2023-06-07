@@ -39,7 +39,7 @@ This app is similar to a wiki but utilizing Django's view model template.Entries
 
 ## Docs
 
-All logic contained in `Views.py` in the `encyclopedia` folder. The actual code is pretty simple and it's commented enought to fully understand what is going on. 
+All logic contained in `Views.py` in the `encyclopedia` folder. The actual code is pretty simple and it's commented enough to fully understand what is going on. 
 
 ## Final Notes
 
