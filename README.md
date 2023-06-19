@@ -43,4 +43,4 @@ All logic contained in `Views.py` in the `encyclopedia` folder. The actual code 
 
 ## Final Notes
 
-This site was deployed using [Railway](https://railway.app/). A workflow provided by Vite is included to build the app correctly.
+This site was deployed using [Railway](https://railway.app/).
