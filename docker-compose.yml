@@ -1,9 +1,0 @@
-version: "3"
-
-services:
-  wiki:
-    build: .
-    volumes:
-      - .:/usr/src/wiki
-    ports:
-      - "8000:8000"
