@@ -29,6 +29,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+#from django 4 upwards!
+CSRF_TRUSTED_ORIGINS=['https://marcos-napolitano-markup-wiki.up.railway.app/'] 
+
 
 # Application definition
 
